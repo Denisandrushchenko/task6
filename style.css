@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    margin: 40px;
+    color: gray;
+}
+
+ul{ 
+    margin: 50px;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+li{
+    width: calc(25% - 20px);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
